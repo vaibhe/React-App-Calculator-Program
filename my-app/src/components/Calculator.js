@@ -14,7 +14,7 @@ const Calculator = () => {
         setDisplay("Error"); // Handle invalid expressions
       }
     } else {
-      setDisplay(display + value); // Append value to the display
+         setDisplay(display + value); // Append value to the display
     }
   };
 
